@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Minimal JS front-end App Example</title>
+	<script src="app.js"></script>
+	<script src="utilities.js"></script>
+</head>
+<body>
+	<h1>Demo App</h1>
+	<form id="userinfo" action="/user" method="post">
+		<fieldset>
+			<legend>Personal Info</legend>
+			<label>First Name:<br />
+			<input type="text" name="firstName" /></label><br />
+
+			<label>Last Name:<br />
+			<input type="text" name="lastName" /></label><br />
+
+			<label>Email:<br />
+			<input type="text" name="email" /></label>
+		</fieldset>
+		<input type="submit"  name="submit" value="Submit"/>
+	</form>
+</body>
+</html>

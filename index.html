@@ -1,71 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ted++ Iterative Personal Development</title>
-    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
-    <link href="stylesheets/main.css" type="text/css" rel="stylesheet" />
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <div class="banner">
-      <h2 class="bannerText">ted++;</h2>
-      <div class="navBar">
-        <ul class="localBar">
-          <li class="navList"><a class="navButton" href="index.html">HOME</a></li>
-          <li class="navList"><a class="navButton" href="aboutme.html">ABOUT ME</a></li>
-          <li class="navList"><a class="navButton" href="portfolio.html">PORTFOLIO</a></li>
-          <li class="navList"><a class="navButton" href="resume/resume.html">RESUME</a></li>
-          <li class="navList"><a class="navButton" href="blog.html">BLOG</a></li>
-        </ul><!-- end localBar-->
+<div class="home">
 
-        <ul class="socialBar">
-          <li class="navList">
-            <a href="https://www.facebook.com/ted.callahan"><img id="socialButton" src="images/FB-f-Logo__blue_29.png"/>
-            </a>
-          </li>
-          <li class="navList">
-            <a href="https://github.com/CCallahanIV"><img id="socialButton" src="images/GitHub-Mark-Light-32px.png"/>
-            </a>
-          </li>
-          <li class="navList">
-            <a href="https://www.linkedin.com/in/ted-callahan-550a259b"><img id="socialButton" src="images/In-2C-28px-R.png"/>
-            </a>
-          </li>
-        </ul> <!--/end #socialbar-->
-      </div><!-- /end #navBar -->
-    </div><!-- /end banner-->
+  <h1 class="page-heading">Posts</h1>
 
-    <div id="page">
-      <div class="content">
-        <img class="contentImage" src="images/bannerbackground.png"/>
-        <h2 id="contentTitle">self-improvement is an iterative process</h2>
-        <p>This website is my attempt to prove to myself that a lapsed Mechanical Engineer can find new purpose through passion for technology, thirst for new challenges, and severe allergic reactions to complacency.</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <p>I believe that life's many challenges are opportunities to improve yourself.  The experience and knowledge gained from each new test is a means to iteratively create a better self.  My hope is that by constantly challenging myself I can continually improve.</p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-        <h2>Lorem Ipsum</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-
-        <!--<div class="figureLinks">
-          <ul>
-            <li id="aboutMe">
-              <a href="aboutme.html">About Me</a>
-            </li>
-            <li id="pfolio">
-              <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li id="resume">
-              <a href="resume.html">Resume</a>
-            </li>
-            <li id="blog">
-              <a href="blog.html">Blog</a>
-            </li>
-          </ul>
-        </div> -->
-      </div><!-- /end .content -->
-    </div><!-- / end #page -->
-
-  </body>
-</html>
+</div>

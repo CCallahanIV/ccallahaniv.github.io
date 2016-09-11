@@ -2,7 +2,7 @@
 layout: post
 title:  "print('Hello world!')"
 date:   2016-09-11 14:08:34 -0700
-categories: jekyll github personal
+tags: jekyll, github, personal
 ---
 
 {%highlight python%}

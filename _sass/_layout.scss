@@ -3,6 +3,14 @@ body{
 	padding: 0;
 }
 
+a{
+	text-decoration: none;
+}
+
+p{
+	line-height: 125%;
+}
+
 hr{
 	border: 0;
 	width: 100%;
@@ -76,10 +84,6 @@ li.navList{
 	padding-left: 3px;
 }
 
-a{
-	text-decoration: none;
-}
-
 .content{
 	padding-top: 100px;
 	margin-left: 12.5%;
@@ -97,6 +101,47 @@ a{
 	min-width: 50px;
 }
 
+.dropdown{
+	display: none;
+	padding-left: 20px;
+}
+
+.dropbtn{
+  background-color: black;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+	border-radius: 6px;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #494950;
+}
+
+.dropdown-content {
+	font-family: Arial, Verdana, sans-serif;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color: #f1f1f1
+}
+
+/*Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button*/
+.show {display:block;}
+
 @media (max-width: 800px) {
 	.banner{
 		height: 96px;
@@ -112,5 +157,16 @@ a{
 	}
 	.content{
 		padding-top: 148px;
+	}
+}
+
+@media (max-width: 700px) {
+	.localBar, .navList{
+		display: none;
+	}
+	.bannerText{padding-bottom: 8px;}
+	.dropdown{
+		display: block;
+		float: left;
 	}
 }

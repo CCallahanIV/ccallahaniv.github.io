@@ -1,3 +1,6 @@
+/*
+*General styles - all pages
+*/
 body{
 	margin: 0;
 	padding: 0;
@@ -30,7 +33,9 @@ td.logoCell{
 	min-width: 80px;
 	vertical-align: top;
 }
-
+/*
+*Navigation banner styles
+*/
 .banner{
 	position: fixed;
 	width: 100%; /* 360 / 960px */
@@ -83,7 +88,9 @@ li.navList{
 	max-height: 20px;
 	padding-left: 3px;
 }
-
+/*
+*Content styles - including images
+*/
 .content{
 	padding-top: 100px;
 	margin-left: 12.5%;
@@ -100,7 +107,9 @@ li.navList{
 	max-width: 200px;
 	min-width: 50px;
 }
-
+/*
+*Dropdown menu styles
+*/
 .dropdown{
 	display: none;
 	padding-left: 20px;
@@ -142,6 +151,9 @@ li.navList{
 /*Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button*/
 .show {display:block;}
 
+/*
+*Media queries - site changes based on screen size
+*/
 @media (max-width: 800px) {
 	.banner{
 		height: 96px;

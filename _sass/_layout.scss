@@ -154,7 +154,7 @@ li.navList{
 /*
 *Media queries - site changes based on screen size
 */
-@media (max-width: 800px) {
+@media (max-width: 930px) {
 	.banner{
 		height: 96px;
 	}
@@ -171,7 +171,7 @@ li.navList{
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 830px) {
 	.localBar, .navList{
 		display: none;
 	}

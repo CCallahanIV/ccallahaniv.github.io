@@ -1,0 +1,130 @@
+/*
+*Stylesheet for CodeFellows codechallenge, Jeopardy-Lite
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4d79ff;
+}
+
+.titleWrapper{
+  background-color: #0040ff;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.homeLink{
+  margin-top: 20px;
+  height: 36px;
+  width: 36px;
+  float: left;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  margin-top: -20px;
+  max-width: 300px;
+}
+
+.questionWrapper{
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
+  border: 1px solid;
+}
+
+.answerBox{
+  border-bottom: 1px solid;
+}
+
+.gameBoardWrapper{
+  border: 1px solid;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  min-width: 600px;
+}
+
+.userWrapper{
+  float: left;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+#gameBoard{
+  float: left;
+}
+
+th{
+  width: 100px;
+  height: 60px;
+  padding: 4px;
+}
+
+td{
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+}
+
+.gameBtn{
+  background-color: #0040ff;
+  color: white;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.gameBtn:hover{
+  background-color: #1a1aff;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: -10px;
+}
+
+.questionBox{
+  padding: 4px;
+  margin-bottom: 4px;
+  background-color: #0040ff;
+  color: white;
+  width: 92%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.questionBox:hover{
+  background-color: #1a1aff;
+}
+
+.questionCorrect{
+  padding: 4px;
+  margin-bottom: 4px;
+  background-color: #00b300;
+  color: white;
+  width: 92%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.questionWrong{
+  padding: 4px;
+  margin-bottom: 4px;
+  background-color: #ff0000;
+  color: white;
+  width: 92%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}

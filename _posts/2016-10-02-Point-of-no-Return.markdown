@@ -26,10 +26,11 @@ The software industries, relatively speaking, are still emerging from their infa
 <h2>The Master Plan</h2>
 
 Here are the major components of my preparation strategy:
-1. Prepare for and complete the Codefellows bootcamp.
-2. Develop additional skills and knowledge through self-study.
-3. Develop a portfolio of personal projects as proof of technical skill.
-4. Prepare for interviews by regularly completing interview-style challenge problems in multiple languages.
+
+  1. Prepare for and complete the Codefellows bootcamp.
+  2. Develop additional skills and knowledge through self-study.
+  3. Develop a portfolio of personal projects as proof of technical skill.
+  4. Prepare for interviews by regularly completing interview-style challenge problems in multiple languages.
 
 <h3>1. Codefellows Bootcamp</h3>
 [Codefellows][] is a four course bootcamp with locations in Seattle, Redmond, and Portland that has a good reputation in industry.  Additionally, the school has a money-back guarantee for finding you a job and makes an effort to network with local companies to make placement easier.  Codefellows focuses on web-based development technologies.
@@ -42,14 +43,11 @@ Since I have some prior experience, I tested into the 301 level course beginning
 In order to prepare for the bootcamp and develop relevant skills, I've been doing self-study utilizing a variety of resources around the web.
 
 Introductory courses (a great place to get started):
-1. [Coursera Specialization - Python for Everybody][1]
 
-2. [Codeacademy - HTML/CSS and Javascript courses][2]
-
-3. [Udemy - Console Foundations][3]
-
-4. [GitHub tutorial][4]
-
+  1. [Coursera Specialization - Python for Everybody][1]
+  2. [Codeacademy - HTML/CSS and Javascript courses][2]
+  3. [Udemy - Console Foundations][3]
+  4. [GitHub tutorial][4]
 
   [1]: https://www.coursera.org/specializations/python
   [2]: https://www.codecademy.com/learn
@@ -57,14 +55,11 @@ Introductory courses (a great place to get started):
   [4]: https://guides.github.com/activities/hello-world/
 
 Continuing education (focusing on greater software dev concepts beyond language syntax):
-1. [Data Structures and Algorithms][5]
 
-2. [Machine Structures][6]
-
-3. [Operating Systems][7]
-
-4. [Computer Networking][8]
-
+  1. [Data Structures and Algorithms][5]
+  2. [Machine Structures][6]
+  3. [Operating Systems][7]
+  4. [Computer Networking][8]
 
   [5]: https://www.youtube.com/watch?v=mFPmKGIrQs4&feature=youtu.be&list=PLZBP-86GmPTxpbvoFFzad0qYw5dKA8MV2
   [6]: https://www.youtube.com/watch?v=flQuXQQaYE8&feature=youtu.be&list=PL-XXv-cvA_iDHtKXLFJbDG-i6L9oDr5X9
@@ -81,9 +76,9 @@ The best way to get paid for programming, is to do a bunch of it for free for yo
 <h3>4. Interview Preparation</h3>
 Interviews in the tech industry are notoriously difficult - know for constantly testing specific technical knowledge and problem solving methods and abilities.  In order to better prepare I am utilizing the following resources:
 
-1. [Reddit Daily Programmer Challenges][9] (Complete 2 - 3 of these per week, try to use multiple languages)
-2. [Cracking the Coding Interview][10] (Famous Book)
-3. Complete various coding challenges around the web (e.g. [Hacker Rank][11] and [30 Days of Coding][12])
+  1. [Reddit Daily Programmer Challenges][9] (Complete 2 - 3 of these per week, try to use multiple languages)
+  2. [Cracking the Coding Interview][10] (Famous Book)
+  3. Complete various coding challenges around the web (e.g. [Hacker Rank][11] and [30 Days of Coding][12])
 
   [9]: https://www.reddit.com/r/dailyprogrammer
   [10]: https://www.amazon.com/gp/product/0984782850?pldnSite=1

@@ -43,9 +43,13 @@ In order to prepare for the bootcamp and develop relevant skills, I've been doin
 
 Introductory courses (a great place to get started):
 1. [Coursera Specialization - Python for Everybody][1]
+
 2. [Codeacademy - HTML/CSS and Javascript courses][2]
+
 3. [Udemy - Console Foundations][3]
+
 4. [GitHub tutorial][4]
+
 
   [1]: https://www.coursera.org/specializations/python
   [2]: https://www.codecademy.com/learn
@@ -54,9 +58,13 @@ Introductory courses (a great place to get started):
 
 Continuing education (focusing on greater software dev concepts beyond language syntax):
 1. [Data Structures and Algorithms][5]
+
 2. [Machine Structures][6]
+
 3. [Operating Systems][7]
+
 4. [Computer Networking][8]
+
 
   [5]: https://www.youtube.com/watch?v=mFPmKGIrQs4&feature=youtu.be&list=PLZBP-86GmPTxpbvoFFzad0qYw5dKA8MV2
   [6]: https://www.youtube.com/watch?v=flQuXQQaYE8&feature=youtu.be&list=PL-XXv-cvA_iDHtKXLFJbDG-i6L9oDr5X9
